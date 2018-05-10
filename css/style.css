@@ -1,0 +1,480 @@
+body
+{
+    background: url('../imgs/shakib5.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    color: #333;
+	font-family: 'Oswald',"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+p { 
+    font-family: 'Century Gothic', Candara, sans-serif;
+    font-size: 1.1em;
+}
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+.navbar-nav>li>a {
+    text-transform: uppercase;
+}
+
+.nav>li>a {
+    padding: 15px 30px;
+}
+
+.navbar-inverse {
+    background-color: #11090E;
+    border-color: ;
+}
+
+.wrap
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+p.form-title
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+form
+{
+    width: 250px;
+    margin: 0 auto;
+}
+
+form.login input[type="text"], form.login input[type="password"]
+{
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.login input[type="submit"]
+{
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+form.login input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+
+form.login .remember-forgot
+{
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+form.login .forgot-pass-content
+{
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form.login label, form.login a
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form.login a
+{
+    transition: color 0.5s ease;
+}
+
+form.login a:hover
+{
+    color: #2ecc71;
+}
+
+.pr-wrap
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.show-pass-reset
+{
+    display: block !important;
+}
+
+.pass-reset
+{
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    margin-top: 22%;
+    z-index: 999;
+    background: #FFFFFF;
+    padding: 20px 15px;
+}
+
+.pass-reset label
+{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.pass-reset input[type="email"]
+{
+    width: 100%;
+    margin: 5px 0 0 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #000000;
+    outline: 0;
+}
+
+.pass-reset input[type="submit"]
+{
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.pass-reset input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+.posted-by
+{
+    position: absolute;
+    bottom: 26px;
+    margin: 0 auto;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 10px;
+    left: 45%;
+}
+
+	
+	/* Style for our header texts 
+	* --------------------------------------- */
+	h1{
+		font-size: 3em;	
+		margin-bottom:3%;
+		padding:0;
+        text-transform: uppercase;
+	}
+	h2{
+		font-size: 2em;
+		margin: 0 0 18px 0;
+        text-transform: uppercase;
+	}
+	
+	
+
+	
+	/* Common styles
+	* --------------------------------------- */
+	img{
+	    -webkit-transition: all 0.7s ease-out;
+		-moz-transition: all 0.7s ease-out;
+		-o-transition: all 0.7s ease-out;
+		transition: all 0.7s ease-out;
+	}
+	.section{
+		text-align:center;
+		overflow:hidden;
+	}
+	.wrap{
+		width: 1180px;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+	.box{
+		text-align: left;
+		color: #808080;
+		font-size: 1.2em;
+		line-height: 1.6em;
+	}
+	
+	
+	
+	
+	/* Section 0
+	* --------------------------------------- */
+	#section0{
+		padding: 60px 0;
+	}
+	#section0 img{
+		height: 100%;
+		margin: 40px 0 0 0;
+	}
+	
+	
+	
+	
+	/* Section 1
+	* --------------------------------------- */
+	#section1 img{
+		position:absolute;
+		left: 40px;
+		top: 100px;
+	}
+	
+	#section1 .box{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -192px;
+		margin-left: 89px;
+		width: 395px;
+		z-index: 1;
+	}
+	#section1 .imgsContainer{
+		display: block;
+		position: absolute;
+		z-index: 1;
+		top: 42%;
+		left: 58%;
+		margin-top: -325px;
+		margin-left: -747px;
+		width: 800px;
+		height: 696px;
+	}
+	#section1 img{
+		height: 100%;
+	}
+	/*screen resolutions between 620px and 800px*/
+	@media all and (min-width: 620px) and (max-width: 800px){
+		#section1 .imgsContainer{
+			margin-top: -278px;
+			margin-left: -685px;
+			width: 647px;
+			height: 563px;
+		}
+	}
+	
+	/*screen resolutions lower than 620px*/
+	@media all and (max-width: 620px){
+		#section1 .imgsContainer{
+			margin-top: -208px;
+			margin-left: -516px;
+			width: 534px;
+			height: 464px;
+		}
+	}
+	#iphone2{
+		z-index: 10;
+	}
+	#iphone2.active{		
+		-webkit-transform: translate3d(-134px, 0px, 0px);
+		-moz-transform: translate3d(-134px, 0px, 0px);
+		-ms-transform:translate3d(-134px, 0px, 0px);
+		transform: translate3d(-134px, 0px, 0px);
+	}
+	
+	#iphone3{
+		z-index: 12;
+	}
+	#iphone3.active{		
+		-webkit-transform: translate3d(213px, 0px, 0px);
+		-moz-transform: translate3d(213px, 0px, 0px);
+		-ms-transform:translate3d(213px, 0px, 0px);
+		transform: translate3d(213px, 0px, 0px);
+	}
+	
+	#iphone4{
+		z-index: 11;
+		left: 140px;
+	}
+	
+	#iphone4.active{		
+		-webkit-transform: translate3d(548px, 0px, 0px);
+		-moz-transform: translate3d(548px, 0px, 0px);
+		-ms-transform:translate3d(548px, 0px, 0px);
+		transform: translate3d(548px, 0px, 0px);
+	}
+	
+	
+	
+	
+	/* Section 2 
+	* --------------------------------------- */
+	#section2 img{
+		position:absolute;
+	}
+	#section2 .imgsContainer,
+	#staticImg .imgsContainer,
+	#section3 .imgsContainer{
+		position: absolute;
+		z-index: 1;
+		left: 50%;
+		display: block;
+		margin-top: -288px;
+		margin-left: -636px;
+		width: 0;
+		height: 0;
+		
+		-webkit-transition: all 1.2s ease-in-out;
+		-moz-transition: all 1.2s ease-in-out;
+		-o-transition: all 1.2s ease-in-out;
+		transition: all 1.2s ease-in-out;
+	}
+	
+	#section2.moveUp .imgsContainer{
+		top: 50%;
+	}
+	
+	#section2.moveDown .imgsContainer,
+	#staticImg .imgsContainer{
+		top: 90%;
+	}
+	
+	#section2.active .imgsContainer{
+		top: 50%;
+	}
+	
+	#section2 .box{
+		top: 22%;
+		left: 42%;
+		position: absolute;
+		width: 582px;
+	}
+	
+	#iphone-yellow{
+		top: -35px;
+		left: -222px;
+	}
+	
+	#iphone-red{
+		top: -194px;
+		left: 106px;
+	}
+	
+	#iphone-blue{
+		top: 320px;
+		left: 448px;
+	}
+	
+	#iphone-green{
+		left: 106px;
+		position:absolute;
+	}
+	
+	#staticImg{
+		display: block;
+		position: absolute;
+		z-index: 1;
+		top: 200%;
+		left: 0;
+		width: 100%;
+		min-width: 980px;
+		height: 100%;
+		
+		-webkit-transition: all 0.7s ease-out;
+		-moz-transition: all 0.7s ease-out;
+		-o-transition: all 0.7s ease-out;
+		transition: all 0.7s ease-out;
+	}
+	#staticImg.moveDown{
+		top: 300%;
+	}
+	#staticImg.moveDown .imgsContainer{
+			top: 50%;
+	}
+	#staticImg.moveDown img{
+		top: 155px;
+	}
+	
+	#staticImg.active .imgsContainer{
+		top: 50%;
+	}
+	
+	
+	#staticImg.active img{
+		top: 487px;
+	}
+	
+	
+	
+	
+	
+	/* Section 3
+	* --------------------------------------- */
+	#section3 .imgsContainer{
+		top: 50%;
+	}
+	
+	#section3 img{
+		top: 155px;
+		left: 455px;
+		position: absolute;
+	}
+	#section3 .box{
+		text-align: center;
+		margin: 10% 0 0 0;
+	}
+	
+
+	
+	/* Overwriting fullPage.js tooltip color
+	* --------------------------------------- */
+	.fullPage-tooltip{
+		color: #AAA;
+	}
+	#fullPage-nav span, .fullPage-slidesNav span{
+		border-color: #AAA;
+	}
+	#fullPage-nav li .active span, .fullPage-slidesNav .active span{
+		background: #AAA;
+	}

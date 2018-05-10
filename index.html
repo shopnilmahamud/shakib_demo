@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Official Shakib Al Hasan</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen apple iphone 5c similar website. Reproducing one sigle scrolling site like Apple iPhone." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,apple,iphone5c,iphone5s,iphone,iphone-5c,like,reproduce,similar,how to" />
+	<meta name="Resource-type" content="Document" />
+
+	<!-- Bootstrap core CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" href="css/examples.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Tigers</a></li>
+          </ul>
+        <!--
+          <form class="navbar-form navbar-left" role="search">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<div id="fullpage">
+	<div id="staticImg">
+		<div class="imgsContainer">
+			<img src="imgs/iphone-green.png" alt="iphone" id="iphone-green" />
+		</div>
+	</div>
+
+	<div class="section " id="section0">
+		<div class="pr-wrap">
+                    
+               
+	</div>
+    </div>
+
+	<div class="section" id="section1">
+		<div class="wrap">
+			<div class="imgsContainer">
+				<img src="imgs/iphone2.png" alt="iphone" id="iphone2" />
+				<img src="imgs/iphone3.png" alt="iphone" id="iphone3" />
+				<img src="imgs/iphone4.png" alt="iphone" id="iphone4" />
+			</div>
+			
+			<div class="box">
+				<h2>The official website of</h2>
+                <h1>Shakib Al Hasan</h1>
+				<p>A talented left-hand batsman and left-arm spinner, Shakib Al Hasan is unarguably the best cricketer that Bangladesh have ever had. 
+                    As a bowler, he is accurate, consistent, and canny; and his aggression and a wide range of strokes are the keys to his batting. 
+                    Even more importantly, he has self-belief an excellent temperament, unflustered by the big occasion and ready to do battle 
+                    against the top teams.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="section moveDown" id="section2">
+		<div class="wrap">
+			<div class="imgsContainer">
+				<img src="imgs/iphone-yellow.png" alt="iphone" id="iphone-yellow" />
+				<img src="imgs/iphone-red.png" alt="iphone" id="iphone-red" />
+				<img src="imgs/iphone-blue.png" alt="iphone" id="iphone-blue" />
+			</div>
+			
+			<div class="box">
+				<h2>Meet world's no.1 all rounder</h2>
+				<p>Shakib Al Hasan has been named world's best all rounder in several times in ODI's by the ICC, first by any Bangladeshi. 
+                He has been holding possession of this honor for the last few years.</p> 
+			</div>
+		</div>
+	</div>
+	<div class="section moveDown" id="section3">
+		<div class="wrap">
+			<div class="box">
+				<h2>Major Teams he played for</h2>
+				<p></p>
+			</div>
+		</div>
+		<div class="imgsContainer">
+			<img src="imgs/iphone-two.png" alt="iphone" id="iphone-two" />
+		</div>
+	</div>
+</div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				'verticalCentered': false,
+				'css3': true,
+				'slidesColor': ['rgb(240, 242, 244,0)', '#fff', '#fff', '#fff'],
+				'navigation': true,
+				'navigationPosition': 'right',
+				'navigationTooltips': ['fullPage.js', 'Powerful', 'Amazing', 'Simple'],
+								
+				'afterLoad': function(anchorLink, index){
+					if(index == 2){
+						$('#iphone3, #iphone2, #iphone4').addClass('active');
+					}					
+				},
+				
+				'onLeave': function(index, newIndex, direction){
+					if (index == 3 && direction == 'down'){
+						$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
+					}
+					else if(index == 3 && direction == 'up'){
+						$('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
+					}
+					
+					$('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
+					$('#staticImg').toggleClass('moveDown', index == 3 && direction == 'down');	
+				}
+			});
+		});
+
+        $(document).ready(function () {
+            $('.forgot-pass').click(function(event) {
+              $(".pr-wrap").toggleClass("show-pass-reset");
+            }); 
+    
+            $('.pass-reset-submit').click(function(event) {
+              $(".pr-wrap").removeClass("show-pass-reset");
+            }); 
+        });
+	</script>
+
+</body>
+</html>
